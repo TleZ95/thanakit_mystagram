@@ -1,0 +1,22 @@
+    <h1 style="margin-top: 50px; font-size: 60px">Mystagram</h1>
+    <div align="center" style="margin-bottom: 20px;">
+		<div style="max-width: 500px">
+			<input type="text" class="form search" name="search" placeholder="search photos">
+    	</div>
+		<div class="controls">
+		  	<label for="spacing">Spacing:</label>
+			<input id="spacing" type="range" name="spacing" min="0" max="25" value="0" data-sizing="px"/>
+			
+			<label for="blur">Blur:</label>
+			<input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px"/>
+			
+			<label for="radius">Radius:</label>
+			<input id="radius" type="range" name="radius" min="0" max="50" value="10" data-sizing="px"/>
+			
+			<label for="baseColor">Base Color:</label>
+			<input id="baseColor" type="color" name="baseColor"/>
+		</div>
+    </div>
+    <div class="gallery"></div>
+
+    <script src="script.js"></script>
